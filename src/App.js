@@ -6,8 +6,10 @@ const Jszip = require('jszip')
 var gh = require('parse-github-url');
 
 const octokit = new Octokit({
-  auth: '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'
+  auth: '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'
 })
+
+console.log('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')
 
 async function f(urlE)
 {
