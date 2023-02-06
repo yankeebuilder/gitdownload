@@ -19,7 +19,7 @@ async function f(urlE)
   let path = ""
   if (!urldata.type)
   {
-    if (urldata.path != urldata.repo)
+    if (urldata.path !== urldata.repo)
     {
     path = urldata.path
     console.log(urldata.branch)
