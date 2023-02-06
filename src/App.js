@@ -7,7 +7,7 @@ var gh = require('parse-github-url');
 
 const octokit = new Octokit({
 
-  auth:(process.env.TOKEN)?(process.env.TOKEN): 'github_pat_11AXDDH4Q0ta2zxCYRsy8O_mIfDIQBTWI1wxvRsu1LmkRiiIjEjrehBhHbvhnkMsM6MFG6JF5DtOPpk2m'
+  auth:(process.env.REACT_APP_TOKEN)?(process.env.REACT_APP_TOKEN): 'github_pat_11AXDDH4Q0ta2zxCYRsy8O_mIfDIQBTWI1wxvRsu1LmkRiiIjEjrehBhHbvhnkMsM6MFG6JF5DtOPpk2m'
 
 })
 
