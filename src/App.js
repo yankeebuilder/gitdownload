@@ -11,7 +11,7 @@ const octokit = new Octokit({
 
 })
 
-console.log(process.env.TOKE)
+console.log(process.env.TOKEN)
 octokit.auth().then((value) => { console.log(value) })
 
 async function f(urlE)
