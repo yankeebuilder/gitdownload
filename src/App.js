@@ -162,7 +162,7 @@ class App extends React.Component {
 
 
   addTodo = (title) => {
-    let file = new Object()
+    let file = {}
     
 
 
